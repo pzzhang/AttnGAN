@@ -1,7 +1,7 @@
 # AttnGAN
 
 Pytorch implementation for reproducing AttnGAN results in the paper [AttnGAN: Fine-Grained Text to Image Generation
-with Attentional Generative Adversarial Networks](https://arxiv.org/pdf/1711.10485.pdf) by Tao Xu, Pengchuan Zhang, Qiuyuan Huang, Han Zhang, Zhe Gan, Xiaolei Huang, Xiaodong He. (This work was performed when Tao was an intern with Microsoft Research). 
+with Attentional Generative Adversarial Networks](http://openaccess.thecvf.com/content_cvpr_2018/papers/Xu_AttnGAN_Fine-Grained_Text_CVPR_2018_paper.pdf) by Tao Xu, Pengchuan Zhang, Qiuyuan Huang, Han Zhang, Zhe Gan, Xiaolei Huang, Xiaodong He. (This work was performed when Tao was an intern with Microsoft Research). 
 
 <img src="framework.png" width="900px" height="350px"/>
 
@@ -17,7 +17,7 @@ In addition, please add the project folder to PYTHONPATH and `pip install` the f
 - `pandas`
 - `torchfile`
 - `nltk`
-- `skikit-image`
+- `scikit-image`
 
 
 
@@ -69,6 +69,8 @@ In addition, please add the project folder to PYTHONPATH and `pip install` the f
 ![](https://github.com/taoxugit/AttnGAN/blob/master/example_bird.png)  |  ![](https://github.com/taoxugit/AttnGAN/blob/master/example_coco.png)
 
 
+### Creating an API
+[Evaluation code](eval) embedded into a callable containerized API is included in the `eval\` folder.
 
 ### Citing AttnGAN
 If you find AttnGAN useful in your research, please consider citing:
